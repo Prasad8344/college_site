@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admissions Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/DSU_Logo.png">
+         </div>
+            <div class="top">
+                <h1>Dhanalakshmi Srinivasan University</h1>
+                <br>        
+                 <h4 style="color:black">(Established Under The Tamil Nadu Private Universities Act, 2019)</h4>
+                 <small>Tiruchirappalli - 621 112. Tamil Nadu, India.</small>
+                
+            </div>
+        
+    </header> 
+    <div class="img">
+  <div class="form-box">
+    <h2>Admissions open</h2>
+    <div class="header-tabs">
+      <button class="active" onclick="toggleForm('register')">Register</button>
+      <button onclick="toggleForm('login')">Login</button>
+    </div>
+    <div  class="form-content active">
+      <form id="registerForm">
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <input type="email" id="email" placeholder="Enter Email Address" required>
+        <input type="tel" id="mobile" placeholder="Enter Mobile Number" required>
+        <input type="password" id="password" placeholder="Enter Password" required />
+        <select id="program" required>
+          <option value="">Select Program</option>
+          <option>B.Tech</option>
+          <option>MBA</option>
+          <option>B.Sc</option>
+        </select>
+        <select id="specialization" required>
+          <option value="">Select Specialization</option>
+          <option>CSE</option>
+          <option>ECE</option>
+          <option>Management</option>
+        </select>
+        <input type="text" id="city" placeholder="Enter City" required>
+        <select id="course" required>
+          <option value="">Select Course</option>
+          <option>Regular</option>
+          <option>Distance</option>
+          <option>Online</option>
+        </select>
+        <button type="submit" class="submit">Register</button>
+      </form>
+    </div>
+
+    <div id="loginForm" class="form-content">
+      <form id="loginFormElement">
+        <input type="email" id="loginEmail" placeholder="Email" required>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <button type="submit" class="submit">Login</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+<section>
+    <div class="steps">
+      <div class="step">
+        <h1 style="color: rgb(12, 30, 224);">STEPS TO FOLLOW</h1>
+        <p>______..      ..______</p>
+        </div>
+    <div class="steps-grid">
+      <article class="step-card">
+        <div class="strip"></div>
+        <div class="inner">
+          <span class="step-no">STEP 1</span>
+          <div class="icon" aria-hidden="true">👤</div>
+          <h3>Register Yourself</h3>
+          <p>Create your account</p>
+        </div>
+      </article>
+
+      <article class="step-card">
+        <div class="strip"></div>
+        <div class="inner">
+          <span class="step-no">STEP 2</span>
+          <div class="icon" aria-hidden="true">✉️</div>
+          <h3>Verify Email</h3>
+          <p>Confirm using the link sent</p>
+        </div>
+      </article>
+
+      <article class="step-card">
+        <div class="strip"></div>
+        <div class="inner">
+          <span class="step-no">STEP 3</span>
+          <div class="icon" aria-hidden="true">🧾</div>
+          <h3>Fill Application Form Online</h3>
+          <p>Enter personal &amp; academic details</p>
+        </div>
+      </article>
+
+      <article class="step-card">
+        <div class="strip"></div>
+        <div class="inner">
+          <span class="step-no">STEP 4</span>
+          <div class="icon" aria-hidden="true">💳</div>
+          <h3>Pay Application Fee</h3>
+          <p>Secure payment gateway</p>
+        </div>
+      </article>
+
+      <article class="step-card">
+        <div class="strip"></div>
+        <div class="inner">
+          <span class="step-no">STEP 5</span>
+          <div class="icon" aria-hidden="true">✅</div>
+          <h3>Submit Application</h3>
+          <p>Review &amp; submit</p>
+        </div>
+      </article>
+    </div>
+    </div>
+  </section>
+  <div class="bg"></div>
+  <main class="wrap">
+    <section class="board" role="region" aria-label="Admission Instructions">
+      <h1 class="title">INSTRUCTIONS
+        <div class="bar"></div>
+      </h1>
+
+      <div class="content">
+        <div class="art" aria-hidden="true">
+        
+          <svg viewBox="0 0 520 360" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0" stop-color="#eef6ff"/>
+                <stop offset="1" stop-color="#d8e6fb"/>
+              </linearGradient>
+            </defs>
+            
+            <rect x="30" y="300" width="440" height="8" rx="4" fill="#e7edf7"/>
+          
+            <rect x="70"  y="250" width="55" height="50" rx="6" fill="#c9d8ef"/>
+            <rect x="145" y="220" width="55" height="80" rx="6" fill="#b7cae8"/>
+            <rect x="220" y="185" width="55" height="115" rx="6" fill="#9fb7df"/>
+            <rect x="295" y="140" width="55" height="160" rx="6" fill="#86a5d7"/>
+            <rect x="370" y="90"  width="55" height="210" rx="6" fill="#6f93cf"/>
+            
+            <path d="M80 180 C170 120, 260 160, 360 100" fill="none" stroke="#2d3e6f" stroke-width="5" stroke-linecap="round"/>
+            <path d="M360 100 l-16 -6 6 16 z" fill="#2d3e6f"/>
+        
+            <g transform="translate(350,70)">
+              <circle cx="0" cy="0" r="12" fill="#394b79"/>
+              <rect x="-10" y="14" width="28" height="36" rx="8" fill="#2d3e6f"/>
+              <rect x="10" y="20" width="28" height="18" rx="4" fill="#405991"/>
+              <path d="M5 50 l-20 28" stroke="#2d3e6f" stroke-width="8" stroke-linecap="round"/>
+              <path d="M9 50 l22 26" stroke="#2d3e6f" stroke-width="8" stroke-linecap="round"/>
+            </g>
+            
+            <ellipse cx="130" cy="80" rx="32" ry="14" fill="url(#g)"/>
+            <ellipse cx="180" cy="86" rx="22" ry="10" fill="url(#g)"/>
+            <ellipse cx="250" cy="60" rx="28" ry="12" fill="url(#g)"/>
+          </svg>
+        </div>
+
+        
+        <div class="card">
+          <h3>Online Application – Admissions <span class="tag">DSU</span></h3>
+          <ul>
+            <li>The online application is for admission to programmes offered in <strong>Dhanalakshmi Srinivasan University (DSU)</strong>.</li>
+            <li>Application form fee is <strong>non‑refundable</strong>.</li>
+            <li>The <strong>Email ID</strong> given at registration will be used for all correspondence until enrolment is complete. Changing the Email ID later is not permitted.</li>
+            <li>Use the <strong>DSU Query Management System (DSU‑QMS)</strong> for quick responses instead of email.</li>
+          </ul>
+
+          <div class="steps">
+            <h4>How to use DSU‑QMS</h4>
+            <ol>
+              <li>Register and verify your email ID.</li>
+              <li>Click <em>Any Queries? Ask Us</em> in your dashboard.</li>
+              <li>Select the category and submit your query.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="edge"></div>
+    </section>
+  </main>
+  <script>
+    function toggleForm(type) {
+      const login = document.getElementById("loginForm");
+      const register = document.getElementById("registerForm");
+      const buttons = document.querySelectorAll(".header-tabs button");
+
+      if (type === "login") {
+        login.classList.add("active");
+        register.classList.remove("active");
+        buttons[0].classList.remove("active");
+        buttons[1].classList.add("active");
+      } else {
+        register.classList.add("active");
+        login.classList.remove("active");
+        buttons[0].classList.add("active");
+        buttons[1].classList.remove("active");
+      }
+    }
+  </script>
+  
+  <!-- Auth status and message display -->
+  <div id="authMessage" style="position: fixed; bottom: 20px; right: 20px; background: rgba(0,0,0,0.7); color: white; padding: 15px; border-radius: 5px; display: none; max-width: 300px;">
+    <span id="messageText"></span>
+  </div>
+  
+  <script type="module" src="./auth.js"></script>
+
+</body>
+</html>
